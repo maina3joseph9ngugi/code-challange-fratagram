@@ -25,7 +25,7 @@ function cardRender (card){
         cardListTag.appendChild(commentTag)
     })
 
-    LikescardBtnTag.addEventListener("click",()=>{
+    likesCardBtnTag.addEventListener("click",()=>{
         card.likes +=1;
         cardLikesTag.textContent =`${card.likes}likes`
 
